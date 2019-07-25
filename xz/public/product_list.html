@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表</title>
+</head>
+<body>
+	<h2>商品列表界面</h2>
+	<form action="/product/list" method="get">
+		<table>
+			<tr>
+				<td><label for="pno">页码：</label><input type="text" name="pno" id="pno"></td><br>
+				<td><label for="size">大小：</label><input type="text" name="size" id="size"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="查询"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
